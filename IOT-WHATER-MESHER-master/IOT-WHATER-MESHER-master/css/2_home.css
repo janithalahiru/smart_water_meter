@@ -1,0 +1,199 @@
+*{
+	margin-top:  0px;
+	padding-top: 0px;
+	
+}
+
+body{
+
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/Home_Page.jpg');
+	background-size: cover; 
+	/* background-position: center; */
+    font-family: sans-serif;
+
+}
+
+.nav_bar{
+
+	
+	width: 600px; /*loginsystem eka yatin thiyana kalu box eka haduva*/
+	height: 720px;
+    background:darkblue;
+	color: #fff; 
+	top: 0%;
+	left: 0%;  
+	position: absolute; 
+	box-sizing: border-box;
+
+	/*padding: 70px 30px; mekath hari. yatin thiyana visiyata 2k liwvath hari*/
+	padding-left: 30px;
+    padding-top: 70px;
+
+}
+
+.nav_bar .logo{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+
+.nav_bar .button button[type="button1"]
+{
+	margin-top: 100px;
+	margin-left: 50px;
+
+	font-size: 20px; /*set font size*/
+	color: #fff;  /*login buton eke nama sudupata karanava*/
+
+	width: 300px; /*set button Width and height*/
+	height: 50px;
+
+
+	border-radius: 20px;
+	background-color: darkblue;  /*set button color*/
+
+	border-color:white; /*set button border*/
+	border-width: 4px; /*set border width*/
+
+}
+
+.nav_bar .button button[type="button2"]
+{
+	margin-top: 50px;
+	margin-left: 50px;
+
+	font-size: 20px; /*set font size*/
+	color: #fff;  /*login buton eke nama sudupata karanava*/
+
+	width: 300px; /*set button Width and height*/
+	height: 50px;
+
+
+	border-radius: 20px;
+	background-color: darkblue;  /*set button color*/
+
+	border-color:white; /*set button border*/
+	border-width: 4px; /*set border width*/
+}
+
+.nav_bar .button button[type="button3"]
+{
+	margin-top: 50px;
+	margin-left: 50px;
+
+	font-size: 20px; /*set font size*/
+	color: #fff;  /*login buton eke nama sudupata karanava*/
+
+	width: 300px; /*set button Width and height*/
+	height: 50px;
+
+
+	border-radius: 20px;
+	background-color: darkblue;  /*set button color*/
+
+	border-color:white; /*set button border*/
+	border-width: 4px; /*set border width*/
+}
+
+.nav_bar .button button[type="button4"]
+{
+	margin-top: 50px;
+	margin-left: 50px;
+
+	font-size: 20px; /*set font size*/
+	color: #fff;  /*login buton eke nama sudupata karanava*/
+
+	width: 300px; /*set button Width and height*/
+	height: 50px;
+
+
+	border-radius: 20px;
+	background-color: darkblue;  /*set button color*/
+
+	border-color:white; /*set button border*/
+	border-width: 4px; /*set border width*/
+
+}
+
+
+.nav_bar .button button[type="button1"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.nav_bar .button button[type="button2"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.nav_bar .button button[type="button3"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.nav_bar .button button[type="button4"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.container #calendar
+{
+    width: 335px;
+    height: 328px;
+	background:gray;
+	margin-left: 1200px;
+	margin-top: 40px;
+} 
+
+.logout{
+	width: 335px;
+	height: 80px;
+	background: black;
+	color: #fff;
+	margin-top: -508px;
+	margin-left: 1200px;
+
+	/*background: linear-gradient(#333,#444,#333)*/
+	text-align: center;
+	border-radius: 5px;
+	 
+}
+
+.logout ul{
+	
+	/* margin: 50px;  */
+	margin-top: 100px;
+	margin-left: -40px;
+	list-style: none; /*list eke ena thith nathi karanava*/
+
+}
+
+.logout ul li{
+	/*padding:0 50px; /*link word athara space hadanava*/
+	display: inline-block;
+	margin-top: 35px;
+	/*border-right: 1px solid white; /*link word athara '|' lakuna danava*/
+	
+}
+
+
+.logout ul li a
+{
+	/* margin-left: -50px; */
+	color: white;
+	text-decoration: none;   /*hyperlink yatin thiyana ira nathikaranava*/
+}
+
+.logout ul li a:hover
+{
+	color: #ffc107;
+}
